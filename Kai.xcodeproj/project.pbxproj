@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4355E9E62BB138E400BF69E7 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355E9E52BB138E400BF69E7 /* LoginModel.swift */; };
+		4355E9E82BB1C2B200BF69E7 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355E9E72BB1C2B200BF69E7 /* SideMenuViewModel.swift */; };
+		4355E9EA2BB1D34200BF69E7 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355E9E92BB1D34200BF69E7 /* SideMenuView.swift */; };
+		4355E9F02BB2526700BF69E7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355E9EF2BB2526700BF69E7 /* HomeViewModel.swift */; };
+		4355E9F22BB3C83300BF69E7 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355E9F12BB3C83300BF69E7 /* SideMenuModel.swift */; };
+		4355E9F42BB4291B00BF69E7 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355E9F32BB4291B00BF69E7 /* HomeModel.swift */; };
+		4355E9F62BB5220400BF69E7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355E9F52BB5220400BF69E7 /* HomeView.swift */; };
+		4355E9F82BB6FC9900BF69E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4355E9F72BB6FC9900BF69E7 /* Assets.xcassets */; };
 		435E32DD2BAD694400A73F41 /* KaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E32DC2BAD694400A73F41 /* KaiApp.swift */; };
 		435E32DF2BAD694400A73F41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E32DE2BAD694400A73F41 /* ContentView.swift */; };
-		435E32E12BAD694600A73F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435E32E02BAD694600A73F41 /* Assets.xcassets */; };
 		435E32E42BAD694600A73F41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435E32E32BAD694600A73F41 /* Preview Assets.xcassets */; };
 		435E32EE2BAD694600A73F41 /* KaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E32ED2BAD694600A73F41 /* KaiTests.swift */; };
 		435E32F82BAD694600A73F41 /* KaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E32F72BAD694600A73F41 /* KaiUITests.swift */; };
 		435E32FA2BAD694600A73F41 /* KaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E32F92BAD694600A73F41 /* KaiUITestsLaunchTests.swift */; };
+		435E330B2BB02C6A00A73F41 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435E330A2BB02C6A00A73F41 /* Launch Screen.storyboard */; };
+		435E330D2BB02ED400A73F41 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E330C2BB02ED400A73F41 /* LoginView.swift */; };
+		435E335A2BB0C72100A73F41 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E33592BB0C72100A73F41 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +44,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4355E9E52BB138E400BF69E7 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		4355E9E72BB1C2B200BF69E7 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		4355E9E92BB1D34200BF69E7 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		4355E9EF2BB2526700BF69E7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4355E9F12BB3C83300BF69E7 /* SideMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		4355E9F32BB4291B00BF69E7 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		4355E9F52BB5220400BF69E7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4355E9F72BB6FC9900BF69E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		435E32D92BAD694400A73F41 /* Kai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		435E32DC2BAD694400A73F41 /* KaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiApp.swift; sourceTree = "<group>"; };
 		435E32DE2BAD694400A73F41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		435E32E02BAD694600A73F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		435E32E32BAD694600A73F41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		435E32E92BAD694600A73F41 /* KaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		435E32ED2BAD694600A73F41 /* KaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiTests.swift; sourceTree = "<group>"; };
 		435E32F32BAD694600A73F41 /* KaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		435E32F72BAD694600A73F41 /* KaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiUITests.swift; sourceTree = "<group>"; };
 		435E32F92BAD694600A73F41 /* KaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		435E330A2BB02C6A00A73F41 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		435E330C2BB02ED400A73F41 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		435E33592BB0C72100A73F41 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +114,11 @@
 		435E32DB2BAD694400A73F41 /* Kai */ = {
 			isa = PBXGroup;
 			children = (
+				435E33062BAE9CBB00A73F41 /* Models */,
+				435E33092BAE9D0300A73F41 /* Views */,
+				435E33082BAE9CDF00A73F41 /* ViewModel */,
 				435E32DC2BAD694400A73F41 /* KaiApp.swift */,
 				435E32DE2BAD694400A73F41 /* ContentView.swift */,
-				435E32E02BAD694600A73F41 /* Assets.xcassets */,
 				435E32E22BAD694600A73F41 /* Preview Content */,
 			);
 			path = Kai;
@@ -125,6 +147,38 @@
 				435E32F92BAD694600A73F41 /* KaiUITestsLaunchTests.swift */,
 			);
 			path = KaiUITests;
+			sourceTree = "<group>";
+		};
+		435E33062BAE9CBB00A73F41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4355E9E52BB138E400BF69E7 /* LoginModel.swift */,
+				4355E9F12BB3C83300BF69E7 /* SideMenuModel.swift */,
+				4355E9F32BB4291B00BF69E7 /* HomeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		435E33082BAE9CDF00A73F41 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				435E33592BB0C72100A73F41 /* LoginViewModel.swift */,
+				4355E9E72BB1C2B200BF69E7 /* SideMenuViewModel.swift */,
+				4355E9EF2BB2526700BF69E7 /* HomeViewModel.swift */,
+				4355E9F72BB6FC9900BF69E7 /* Assets.xcassets */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		435E33092BAE9D0300A73F41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				435E330A2BB02C6A00A73F41 /* Launch Screen.storyboard */,
+				435E330C2BB02ED400A73F41 /* LoginView.swift */,
+				4355E9E92BB1D34200BF69E7 /* SideMenuView.swift */,
+				4355E9F52BB5220400BF69E7 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435E330B2BB02C6A00A73F41 /* Launch Screen.storyboard in Resources */,
+				4355E9F82BB6FC9900BF69E7 /* Assets.xcassets in Resources */,
 				435E32E42BAD694600A73F41 /* Preview Assets.xcassets in Resources */,
-				435E32E12BAD694600A73F41 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +312,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435E330D2BB02ED400A73F41 /* LoginView.swift in Sources */,
+				4355E9F02BB2526700BF69E7 /* HomeViewModel.swift in Sources */,
+				4355E9F42BB4291B00BF69E7 /* HomeModel.swift in Sources */,
+				4355E9E62BB138E400BF69E7 /* LoginModel.swift in Sources */,
+				4355E9EA2BB1D34200BF69E7 /* SideMenuView.swift in Sources */,
+				4355E9F62BB5220400BF69E7 /* HomeView.swift in Sources */,
+				4355E9E82BB1C2B200BF69E7 /* SideMenuViewModel.swift in Sources */,
 				435E32DF2BAD694400A73F41 /* ContentView.swift in Sources */,
+				435E335A2BB0C72100A73F41 /* LoginViewModel.swift in Sources */,
 				435E32DD2BAD694400A73F41 /* KaiApp.swift in Sources */,
+				4355E9F22BB3C83300BF69E7 /* SideMenuModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +488,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Kai/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Kai;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,9 +518,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Kai/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Kai;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
